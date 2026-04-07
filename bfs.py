@@ -16,7 +16,7 @@ def bfs(graph, start):
                 visited.append(neighbour)
                 queue.append(neighbour)
 
-# Graph with different alphabet nodes
+
 graph = {
     'P': ['Q', 'R'],
     'Q': ['S', 'T'],
