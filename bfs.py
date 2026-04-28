@@ -9,13 +9,17 @@ def bfs(graph, start):
 
     while queue:
         node = queue.popleft()
+        \
+
+
+
+        
         print(node, end=" ")
 
         for neighbour in graph[node]:
             if neighbour not in visited:
                 visited.append(neighbour)
                 queue.append(neighbour)
-
 
 graph = {
     'P': ['Q', 'R'],
